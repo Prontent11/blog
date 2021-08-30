@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: smooth;
+  
+}
+.container{
+    background: url('Images/bg3.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+}
+.innercontainer{
+    width: 90vw;
+    padding-bottom:7% ;
+    background-color:rgba(255,255,255,0.2);
+    border-radius: 20px;
+    color: rgb(134,35,57);
+    box-shadow:0.6rem 0.2rem 1.2rem rgba(0,0,0,0.1);
+    border: 2px solid rgba(255,255,255,0.3);
+
+    
+    
+    
+    
+}
+
+
+
+.header{
+    background-color:rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    width: 90%;
+    height: 15vh;
+    border-radius: 20px;
+    margin: -20px auto;
+    align-items: center;
+    font-size: 25px;
+    box-shadow:0.6rem 0.2rem 1.2rem rgba(0,0,0,0.15);
+    border: 2px solid rgba(255,255,255,0.3);
+
+
+}
+.header:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vh;
+    
+    
+}
+.navlink{
+    list-style: none;
+    
+    font-size: larger;
+    font-weight: 500;
+    transition: 0.5s;
+    
+}
+.navlink a{
+    padding: 10px;
+    list-style: none;
+    text-decoration:none;
+    color: rgb(134,35,57);
+    
+}
+.navlink a:hover{
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+    transition: 0.5s;
+}
+
+
+.introsides{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+
+}
+.introductioncard{
+    border: 2px solid rgba(255,255,255,0.3);
+
+    font-weight: 400;
+    background-color:rgba(255,255,255,0.2);
+    width: 38vw;
+    padding: 3% 7%;
+    margin-left:-12% ;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow:0.6rem 0.2rem 1.2rem rgba(0,0,0,0.1);
+    transition: 0.5s;
+    border: 2px solid rgba(255,255,255,0.3);
+
+    
+    
+}
+
+.introcontent{
+    font-size: 25px;
+
+    color: rgb(134,35,57);
+}
+.introductioncard:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.characterimage img{
+    height: 450px;
+}
+
+
+.aboutsection{
+    width: 90vw;
+    background-color:rgba(255,255,255,0.1);
+    box-shadow:0.6rem 0.2rem 1.2rem rgba(0,0,0,0.1);
+    padding: 3% 5%;
+    color: rgb(134,35,57);
+    border-radius: 20px;
+    margin-top: 4%;
+    border: 2px solid rgba(255,255,255,0.3);
+    padding: 3%;
+
+
+
+
+}
+.abouttitle{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.aboutsection:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.aboutsection .img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.abouttext{
+    margin-top: 6%;
+    max-width: 45vw;
+    font-size: 25px;
+
+    
+}
+
+
+.blogheadtitle{
+    text-align: center;
+    width: 90vw;
+    padding: 3%;
+    margin-top: 3%;
+    background: rgba(255,255,255,0.1);
+    color: rgb(134,35,57);
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.3);
+    box-shadow:0.6rem 0.2rem 1.2rem rgba(0,0,0,0.1);
+
+    font-size: 25px;
+
+}
+.blogsection{
+    
+width: 90vw;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+font-size: 20px;
+padding: auto;
+
+}
+.blog{
+    width: 320px;
+    height: 420px;
+    margin: 30px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid rgba(138, 71, 71, 0.1);
+    padding: 25px;
+    text-align: center;
+    color: rgb(134,35,57);
+    box-shadow:0.6rem 0.2rem 1.2rem rgba(0,0,0,0.1);
+
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(255,255,255,0.3);
+    font-size: 17px;
+    
+}
+.blogsection img{
+    min-width: 380px;
+    min-height: 500px;
+    padding: 3%;
+}
+
+
+.blogtext{
+    opacity: 0;
+    transform: translateY(100px);
+    
+}
+.blog h2{
+    font-size: 8em;
+    color: rgba(134,35,57,0.5);
+    
+}
+.blog h3{
+    font-size: 2em;
+    color: rgba(134,35,57,0.9);
+    
+}
+.blogtext a{
+    text-decoration: none;
+    text-align: center;
+    padding: 3%;
+    color: rgb(134,35,57);
+    font-weight: 1000;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.blog:hover .blogtext{
+   transition: 0.5s;
+    transform: scale(1.05);
+border-top-right-radius:20px ;
+opacity: 1;
+
+}
+.blog:hover img{
+   display: none;
+}
+.blog:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+
+
+.contacttitle{
+    text-align: center;
+
+    font-size: 25px;
+}
+
+
+.contactus{
+    width: 90vw;
+    padding: 5%;
+    
+    text-align: center;
+    background-color: rgba(255,255,255,0.2);
+    margin-bottom: 0;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.3);
+    box-shadow:0.6rem 0.2rem 1.2rem rgba(0,0,0,0.1);
+    border-bottom: none;
+    color: rgb(134,35,57);
+}
+.contactinfo{
+ display: flex;
+ font-size: 1.3rem;
+
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3%;
+
+}
+.contacttitle h2{
+    font-size: 25px;
+}
+.contactinforight{
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 45vw;
+    min-height: 50vh;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.contactinforight input{
+    padding: 2%;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    background: none;
+    color: rgb(134,35,57);
+    outline: none;
+    border-bottom: 1px solid rgb(134,35,57);
+}
+
+.contactinforight input::placeholder{
+    color: rgb(134,35,57);
+
+}
+.contactinforight a{
+    padding: 2% 7%;
+    font: 29px;
+    border:1px solid rgb(134,35,57);
+    background: none;
+    border-radius:20px ;
+    text-decoration: none;
+    color: rgb(134,35,57);
+}
+
+.contactinforight a:hover{
+    background: #fff;
+    border: 1px solid white;
+    box-shadow:0.6rem 0.2rem 1.2rem rgba(0,0,0,0.1);
+
+}
+
+
+.contactinfoleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align:justify;
+    min-height: 40vh;
+    font-size: 1.3rem;    ;
+}
+
+
+
+.footer{
+    width: 90vw;
+    padding: 3%;
+    margin-top: 3%;
+    
+    text-align: center;
+    background-color: rgba(255,255,255,0.2);
+    margin-bottom: 0;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    border: 2px solid rgba(255,255,255,0.3);
+    box-shadow:0.6rem 0.2rem 1.2rem rgba(0,0,0,0.1);
+
+    color: rgb(134,35,57);
+    
+
+}
+.footer:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+  @media (max-width:1200px) {
+    .introsides{
+        flex-direction: column;
+    }  
+    .introductioncard{
+          margin-left:0;
+          margin-top: 5%;
+          width: 90%;
+      }
+      .characterimage img{
+          height: 350px;
+      }
+      .about{
+        padding: 5%;
+    }
+    .abouttitle h1{
+        font-size: 25px;
+    }
+  }
+  @media (max-width:992px){
+    .introsides{
+        margin-top:15px;
+    } 
+    .introductioncard{
+          width: 90%;
+      }
+      .characterimage img{
+        height: 350px;
+      }
+      .about{
+          padding: 5%;
+      }
+      
+  }
+  @media (max-width:600px){
+    
+    .header{
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 5px;
+        /* padding: 5%; */
+        height: 20vh;
+    }
+    .navlinks{
+        margin-top: 15px;
+        
+    
+        
+    }
+    .introductioncard{
+          width: 90%;
+          
+      }
+      .characterimage img{
+        height: 300px;
+      }
+      .about{
+          padding: 5%;
+      }
+      .about img{
+          height: 250px;
+          width: 250px;
+      }
+    
+    .blog{
+        font-size: 17px;
+    }}
+   
+
+  @media (max-width:450px){
+   
+    
+    .navlinks{
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .header{
+        height: 40vh;
+    }
+    .navlink{
+        margin: 5px;
+    }
+    
+    .contactinfoleft{
+        width: 100%;
+        font-size: 19px;
+        word-wrap: break-word
+    }
+    .contactinforight{
+        width: 100%;
+    }
+  }
